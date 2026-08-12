@@ -1,0 +1,123 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Team (تیم)",
+ "type": "section",
+ "content": [
+  {
+   "id": "e09fd90",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-team mrd-section--pad",
+    "_element_id": "team"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "62bd4d0",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "d1603b2",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "528c4ff",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> تیم ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "ba57ee7",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "افرادی که تفاوت را می‌سازند.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "f07be3f",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<ul class=\"mrd-team__grid\" data-mrd-group>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-1.jpg\" alt=\"[نام عضو تیم] — مدیرعامل\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیرعامل</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.1\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-2.jpg\" alt=\"[نام عضو تیم] — مدیر استراتژی\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر استراتژی</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.2\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-3.jpg\" alt=\"[نام عضو تیم] — مدیر فناوری\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر فناوری</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.30000000000000004\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-4.jpg\" alt=\"[نام عضو تیم] — مدیر طراحی\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر طراحی</span>\n  </div>\n</li></ul>",
+        "_css_classes": "mrd-team__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

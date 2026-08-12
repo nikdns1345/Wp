@@ -1,0 +1,126 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Hero (هیرو سینمایی)",
+ "type": "section",
+ "content": [
+  {
+   "id": "1df767e",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "min_height": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "flex_direction": "column",
+    "_css_classes": "mrd-hero",
+    "attributes": "data-hero|",
+    "_element_id": "hero"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "d77467a",
+     "elType": "widget",
+     "isInner": false,
+     "widgetType": "html",
+     "settings": {
+      "html_code": "<span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span>",
+      "_css_classes": "mrd-hero__bg"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [],
+     "title": "",
+     "categories": [
+      "basic"
+     ],
+     "keywords": []
+    },
+    {
+     "id": "b603c31",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "d80d1d9",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<span class=\"mrd-eyebrow\" data-hero-eyebrow><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> شرکت بین‌المللی فناوری، مهندسی و سرمایه‌گذاری</span>\n<h1 class=\"mrd-hero__title\" data-hero-title>\n  <span class=\"mrd-hero__line\"><span class=\"mrd-hero__line-inner\">ما چیزی می‌سازیم که</span></span>\n  <span class=\"mrd-hero__line\"><span class=\"mrd-hero__line-inner\">کسب‌وکار را به جلو می‌برد.</span></span>\n</h1>\n<p class=\"mrd-hero__desc\" data-hero-desc>[توضیح کوتاه شرکت] — از ایده تا اجرا، در کنار سازمان‌ها راه‌حل‌هایی دقیق، مقیاس‌پذیر و ماندگار طراحی می‌کنیم.</p>\n<div class=\"mrd-hero__actions\" data-hero-actions>\n  <a href=\"#projects\" class=\"mrd-btn mrd-btn--solid\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">مشاهده‌ی پروژه‌ها</span>\n    <span class=\"mrd-btn__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M17 7 7 17M7 9v8h8\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n  <a href=\"#contact\" class=\"mrd-btn mrd-btn--ghost\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">تماس با ما</span>\n  </a>\n</div>",
+        "_css_classes": "mrd-hero__content"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "a920433",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<figure class=\"mrd-hero__visual-media\">\n  <img src=\"/wp-content/uploads/hero.jpg\" alt=\"[تصویر اصلی هیرو]\" width=\"1200\" height=\"900\" decoding=\"async\" fetchpriority=\"high\">\n</figure>\n<span class=\"mrd-hero__orb\" data-hero-orb></span>\n<span class=\"mrd-hero__tag mrd-glass\" data-hero-tag><i></i> مقیاس‌پذیر. دقیق. ماندگار.</span>",
+        "_css_classes": "mrd-hero__visual"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "16ebef4",
+     "elType": "widget",
+     "isInner": false,
+     "widgetType": "html",
+     "settings": {
+      "html_code": "<a class=\"mrd-hero__scroll\" href=\"#about\" data-hero-scroll aria-label=\"اسکرول به پایین\">\n  <span class=\"mrd-hero__scroll-text\">اسکرول</span>\n  <span class=\"mrd-hero__scroll-line\"><i></i></span>\n</a>",
+      "_css_classes": "mrd-hero__scroll-wrap"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [],
+     "title": "",
+     "categories": [
+      "basic"
+     ],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

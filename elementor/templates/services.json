@@ -1,0 +1,98 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Services (خدمات تعاملی)",
+ "type": "section",
+ "content": [
+  {
+   "id": "ad38586",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-services mrd-section--pad",
+    "attributes": "data-services|",
+    "_element_id": "services"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "64a39d5",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "1cc1e18",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-services__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "f272678",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> خدمات ما</span>\n<h2 class=\"mrd-h2\" data-split=\"lines\">راه‌حل‌های یکپارچه، از استراتژی تا اجرا.</h2>\n<p class=\"mrd-lead mrd-text-muted\" data-mrd=\"fade-up\" data-mrd-delay=\"0.15\">[توضیح سکشن خدمات] — پنج حوزه‌ی تخصصی، یک تیم واحد.</p>",
+          "_css_classes": "mrd-services__head"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "c92d0bf",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<ul class=\"mrd-services__list\" data-services-list>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۱</span>\n    <span class=\"mrd-services__name\">استراتژی و مشاوره</span>\n    <span class=\"mrd-services__tag\">Strategy</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — تحلیل بازار، طراحی مدل کسب‌وکار و نقشه‌ی راه رشد.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۲</span>\n    <span class=\"mrd-services__name\">توسعه‌ی فناوری</span>\n    <span class=\"mrd-services__tag\">Technology</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — معماری نرم‌افزار، پلتفرم‌های ابری و محصولات دیجیتال مقیاس‌پذیر.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۳</span>\n    <span class=\"mrd-services__name\">مهندسی و اجرا</span>\n    <span class=\"mrd-services__tag\">Engineering</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — مدیریت پروژه‌های پیچیده‌ی مهندسی از طراحی تا تحویل.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۴</span>\n    <span class=\"mrd-services__name\">تحول دیجیتال</span>\n    <span class=\"mrd-services__tag\">Transformation</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — بازطراحی فرآیندها و سیستم‌ها برای سازمان‌های داده‌محور.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۵</span>\n    <span class=\"mrd-services__name\">سرمایه‌گذاری و رشد</span>\n    <span class=\"mrd-services__tag\">Investment</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — ساختاردهی مالی، جذب سرمایه و توسعه‌ی بازارهای جدید.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li></ul>",
+          "_css_classes": "mrd-services__list-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

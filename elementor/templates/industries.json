@@ -1,0 +1,123 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Industries (صنایع)",
+ "type": "section",
+ "content": [
+  {
+   "id": "910ee9f",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-industries mrd-section--pad",
+    "_element_id": "industries"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "ae96563",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "8dc7476",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "3570f90",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> صنایع و توانمندی‌ها</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "ba8ba82",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "تجربه در هشت صنعت کلیدی.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "d33bf61",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<ul class=\"mrd-industries__grid\" data-mrd-group>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰1</span>\n    <h3 class=\"mrd-industry__title\">فناوری</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.08\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰2</span>\n    <h3 class=\"mrd-industry__title\">ساختمان و عمران</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.16\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰3</span>\n    <h3 class=\"mrd-industry__title\">مالی و بانکی</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.24\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰4</span>\n    <h3 class=\"mrd-industry__title\">تولید و صنعت</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰5</span>\n    <h3 class=\"mrd-industry__title\">انرژی</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.08\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰6</span>\n    <h3 class=\"mrd-industry__title\">املاک و مستغلات</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.16\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰7</span>\n    <h3 class=\"mrd-industry__title\">سلامت</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.24\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰8</span>\n    <h3 class=\"mrd-industry__title\">لجستیک و حمل‌ونقل</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li></ul>",
+        "_css_classes": "mrd-industries__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

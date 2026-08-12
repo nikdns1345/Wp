@@ -1,0 +1,62 @@
+{
+ "version": "0.4",
+ "title": "Meridian — CTA (فراخوان نهایی)",
+ "type": "section",
+ "content": [
+  {
+   "id": "27d8462",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-cta mrd-section--pad",
+    "_element_id": "cta"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "3d20d13",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "ac667b0",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<span class=\"mrd-eyebrow mrd-eyebrow--light\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> شروع همکاری</span>\n<h2 class=\"mrd-cta__title\" data-split=\"lines\">بیایید چیزی ماندگار بسازیم.</h2>\n<p class=\"mrd-cta__desc\" data-mrd=\"fade-up\" data-mrd-delay=\"0.15\">[توضیح کوتاه CTA] — پاسخ‌گویی در کمتر از ۲۴ ساعت کاری.</p>\n<div data-mrd=\"fade-up\" data-mrd-delay=\"0.25\">\n  <a href=\"#contact\" class=\"mrd-btn mrd-btn--light\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">شروع پروژه</span>\n    <span class=\"mrd-btn__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M17 7 7 17M7 9v8h8\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</div>\n<p class=\"mrd-cta__contact\" data-mrd=\"fade-up\" data-mrd-delay=\"0.35\">\n  <a href=\"mailto:info@example.com\" class=\"mrd-link-line mrd-link-line--light\">[ایمیل] info@example.com</a>\n  <a href=\"tel:+982100000000\" class=\"mrd-link-line mrd-link-line--light\">[تلفن] ۰۲۱-۰۰۰۰۰۰۰۰</a>\n</p>",
+        "_css_classes": "mrd-cta__inner"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

@@ -63,15 +63,29 @@ function meridian_assets() {
 	}
 
 	/* ---------------------------------------------------------------
-	 * ۳) کتابخانه‌های انیمیشن از CDN
+	 * ۳) کتابخانه‌های انیمیشن — محلی (با Fallback خودکار به CDN)
+	 * فایل‌ها در assets/js/vendor هستند؛ اگر حذف شوند CDN جایگزین می‌شود.
 	 * (با Fallback نرم در JS — اگر لود نشوند سایت بدون انیمیشن سالم می‌ماند)
 	 * ------------------------------------------------------------- */
-	$in_footer = array( 'strategy' => 'defer', 'in_footer' => true );
+	$in_footer  = array( 'strategy' => 'defer', 'in_footer' => true );
+	$vendor_uri = MERIDIAN_URI . '/assets/js/vendor';
+	$vendor_dir = MERIDIAN_DIR . '/assets/js/vendor';
 
-	wp_enqueue_script( 'gsap', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js', array(), '3.12.5', $in_footer );
-	wp_enqueue_script( 'gsap-scrolltrigger', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js', array( 'gsap' ), '3.12.5', $in_footer );
-	wp_enqueue_script( 'gsap-motionpath', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js', array( 'gsap' ), '3.12.5', $in_footer );
-	wp_enqueue_script( 'lenis', 'https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js', array(), '1.1.18', $in_footer );
+	$meridian_lib = function ( $file, $cdn, $version ) use ( $vendor_uri, $vendor_dir ) {
+		return file_exists( $vendor_dir . '/' . $file )
+			? array( $vendor_uri . '/' . $file, (string) filemtime( $vendor_dir . '/' . $file ) )
+			: array( $cdn, $version );
+	};
+
+	list( $gsap_src, $gsap_ver )    = $meridian_lib( 'gsap.min.js', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js', '3.12.5' );
+	list( $st_src, $st_ver )        = $meridian_lib( 'ScrollTrigger.min.js', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js', '3.12.5' );
+	list( $mp_src, $mp_ver )        = $meridian_lib( 'MotionPathPlugin.min.js', 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js', '3.12.5' );
+	list( $lenis_src, $lenis_ver )  = $meridian_lib( 'lenis.min.js', 'https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js', '1.1.18' );
+
+	wp_enqueue_script( 'gsap', $gsap_src, array(), $gsap_ver, $in_footer );
+	wp_enqueue_script( 'gsap-scrolltrigger', $st_src, array( 'gsap' ), $st_ver, $in_footer );
+	wp_enqueue_script( 'gsap-motionpath', $mp_src, array( 'gsap' ), $mp_ver, $in_footer );
+	wp_enqueue_script( 'lenis', $lenis_src, array(), $lenis_ver, $in_footer );
 
 	/* ---------------------------------------------------------------
 	 * ۴) هسته + ماژول‌های انیمیشن قالب

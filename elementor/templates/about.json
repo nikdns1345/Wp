@@ -1,0 +1,184 @@
+{
+ "version": "0.4",
+ "title": "Meridian — About (درباره‌ی ما)",
+ "type": "section",
+ "content": [
+  {
+   "id": "581e59a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-about mrd-section--pad",
+    "_element_id": "about"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "55a8f63",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "ca950e9",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-about__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "843dd23",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> درباره‌ی ما</span>",
+          "_css_classes": "mrd-about__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "71ef9fc",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<figure class=\"mrd-about__media u-hover-zoom\" data-mrd=\"mask\">\n  <img src=\"/wp-content/uploads/about.jpg\" alt=\"[تصویر درباره‌ی ما]\" width=\"1000\" height=\"1250\" loading=\"lazy\" decoding=\"async\" data-parallax=\"0.12\">\n</figure>",
+          "_css_classes": "mrd-about__media-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "60ce195",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "_css_classes": "mrd-about__content"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [
+          {
+           "id": "c917c66",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "heading",
+           "settings": {
+            "title": "[گزاره‌ی شرکت] چالش‌های پیچیده را به فرصت‌های روشن تبدیل می‌کنیم.",
+            "header_size": "h2",
+            "_css_classes": "mrd-h2",
+            "__globals__": {
+             "title_color": "globals/colors?id=primary",
+             "typography_typography": "globals/typography?id=secondary"
+            },
+            "attributes": "data-split|lines"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          },
+          {
+           "id": "73dbdcc",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>[متن درباره‌ی ما] — مِریدین مجموعه‌ای از مهندسان، طراحان و تحلیل‌گران است که از سال ۱۳۸۸ در کنار سازمان‌ها، راه‌حل‌هایی دقیق و ماندگار می‌سازد.</p>",
+            "_css_classes": "mrd-lead mrd-text-muted"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          },
+          {
+           "id": "de20422",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "button",
+           "settings": {
+            "text": "بیشتر بدانید",
+            "link": {
+             "url": "#about",
+             "is_external": "",
+             "nofollow": ""
+            },
+            "selected_icon": {
+             "value": ""
+            },
+            "_css_classes": "mrd-el-btn mrd-btn--ghost"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          }
+         ],
+         "title": "Container",
+         "categories": [],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

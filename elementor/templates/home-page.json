@@ -1,0 +1,1255 @@
+{
+ "version": "0.4",
+ "title": "Meridian — صفحه‌ی اصلی (کامل)",
+ "type": "page",
+ "content": [
+  {
+   "id": "1df767e",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "min_height": {
+     "unit": "vh",
+     "size": 100,
+     "sizes": []
+    },
+    "flex_direction": "column",
+    "_css_classes": "mrd-hero",
+    "attributes": "data-hero|",
+    "_element_id": "hero"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "d77467a",
+     "elType": "widget",
+     "isInner": false,
+     "widgetType": "html",
+     "settings": {
+      "html_code": "<span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span><span class=\"mrd-hero__gridline\"></span>",
+      "_css_classes": "mrd-hero__bg"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [],
+     "title": "",
+     "categories": [
+      "basic"
+     ],
+     "keywords": []
+    },
+    {
+     "id": "b603c31",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "d80d1d9",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<span class=\"mrd-eyebrow\" data-hero-eyebrow><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> شرکت بین‌المللی فناوری، مهندسی و سرمایه‌گذاری</span>\n<h1 class=\"mrd-hero__title\" data-hero-title>\n  <span class=\"mrd-hero__line\"><span class=\"mrd-hero__line-inner\">ما چیزی می‌سازیم که</span></span>\n  <span class=\"mrd-hero__line\"><span class=\"mrd-hero__line-inner\">کسب‌وکار را به جلو می‌برد.</span></span>\n</h1>\n<p class=\"mrd-hero__desc\" data-hero-desc>[توضیح کوتاه شرکت] — از ایده تا اجرا، در کنار سازمان‌ها راه‌حل‌هایی دقیق، مقیاس‌پذیر و ماندگار طراحی می‌کنیم.</p>\n<div class=\"mrd-hero__actions\" data-hero-actions>\n  <a href=\"#projects\" class=\"mrd-btn mrd-btn--solid\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">مشاهده‌ی پروژه‌ها</span>\n    <span class=\"mrd-btn__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M17 7 7 17M7 9v8h8\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n  <a href=\"#contact\" class=\"mrd-btn mrd-btn--ghost\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">تماس با ما</span>\n  </a>\n</div>",
+        "_css_classes": "mrd-hero__content"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      },
+      {
+       "id": "a920433",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<figure class=\"mrd-hero__visual-media\">\n  <img src=\"/wp-content/uploads/hero.jpg\" alt=\"[تصویر اصلی هیرو]\" width=\"1200\" height=\"900\" decoding=\"async\" fetchpriority=\"high\">\n</figure>\n<span class=\"mrd-hero__orb\" data-hero-orb></span>\n<span class=\"mrd-hero__tag mrd-glass\" data-hero-tag><i></i> مقیاس‌پذیر. دقیق. ماندگار.</span>",
+        "_css_classes": "mrd-hero__visual"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    },
+    {
+     "id": "16ebef4",
+     "elType": "widget",
+     "isInner": false,
+     "widgetType": "html",
+     "settings": {
+      "html_code": "<a class=\"mrd-hero__scroll\" href=\"#about\" data-hero-scroll aria-label=\"اسکرول به پایین\">\n  <span class=\"mrd-hero__scroll-text\">اسکرول</span>\n  <span class=\"mrd-hero__scroll-line\"><i></i></span>\n</a>",
+      "_css_classes": "mrd-hero__scroll-wrap"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [],
+     "title": "",
+     "categories": [
+      "basic"
+     ],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "581e59a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-about mrd-section--pad",
+    "_element_id": "about"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "55a8f63",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "ca950e9",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-about__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "843dd23",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> درباره‌ی ما</span>",
+          "_css_classes": "mrd-about__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "71ef9fc",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<figure class=\"mrd-about__media u-hover-zoom\" data-mrd=\"mask\">\n  <img src=\"/wp-content/uploads/about.jpg\" alt=\"[تصویر درباره‌ی ما]\" width=\"1000\" height=\"1250\" loading=\"lazy\" decoding=\"async\" data-parallax=\"0.12\">\n</figure>",
+          "_css_classes": "mrd-about__media-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "60ce195",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "_css_classes": "mrd-about__content"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [
+          {
+           "id": "c917c66",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "heading",
+           "settings": {
+            "title": "[گزاره‌ی شرکت] چالش‌های پیچیده را به فرصت‌های روشن تبدیل می‌کنیم.",
+            "header_size": "h2",
+            "_css_classes": "mrd-h2",
+            "__globals__": {
+             "title_color": "globals/colors?id=primary",
+             "typography_typography": "globals/typography?id=secondary"
+            },
+            "attributes": "data-split|lines"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          },
+          {
+           "id": "73dbdcc",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>[متن درباره‌ی ما] — مِریدین مجموعه‌ای از مهندسان، طراحان و تحلیل‌گران است که از سال ۱۳۸۸ در کنار سازمان‌ها، راه‌حل‌هایی دقیق و ماندگار می‌سازد.</p>",
+            "_css_classes": "mrd-lead mrd-text-muted"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          },
+          {
+           "id": "de20422",
+           "elType": "widget",
+           "isInner": false,
+           "widgetType": "button",
+           "settings": {
+            "text": "بیشتر بدانید",
+            "link": {
+             "url": "#about",
+             "is_external": "",
+             "nofollow": ""
+            },
+            "selected_icon": {
+             "value": ""
+            },
+            "_css_classes": "mrd-el-btn mrd-btn--ghost"
+           },
+           "defaultEditSettings": {
+            "defaultEditRoute": "content"
+           },
+           "elements": [],
+           "title": "",
+           "categories": [
+            "basic"
+           ],
+           "keywords": []
+          }
+         ],
+         "title": "Container",
+         "categories": [],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "b35b73c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-stats",
+    "_element_id": "stats"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "01eebeb",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "4ee2752",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-stats__grid\" data-mrd-group>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"15\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">+</em>\n  </span>\n  <span class=\"mrd-stat__label\">سال تجربه</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"120\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">+</em>\n  </span>\n  <span class=\"mrd-stat__label\">پروژه‌ی موفق</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"35\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\"></em>\n  </span>\n  <span class=\"mrd-stat__label\">صنعت</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"98\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">٪</em>\n  </span>\n  <span class=\"mrd-stat__label\">رضایت مشتری</span>\n</div></div>",
+        "_css_classes": "mrd-stats__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "ad38586",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-services mrd-section--pad",
+    "attributes": "data-services|",
+    "_element_id": "services"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "64a39d5",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "1cc1e18",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-services__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "f272678",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> خدمات ما</span>\n<h2 class=\"mrd-h2\" data-split=\"lines\">راه‌حل‌های یکپارچه، از استراتژی تا اجرا.</h2>\n<p class=\"mrd-lead mrd-text-muted\" data-mrd=\"fade-up\" data-mrd-delay=\"0.15\">[توضیح سکشن خدمات] — پنج حوزه‌ی تخصصی، یک تیم واحد.</p>",
+          "_css_classes": "mrd-services__head"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "c92d0bf",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<ul class=\"mrd-services__list\" data-services-list>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۱</span>\n    <span class=\"mrd-services__name\">استراتژی و مشاوره</span>\n    <span class=\"mrd-services__tag\">Strategy</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — تحلیل بازار، طراحی مدل کسب‌وکار و نقشه‌ی راه رشد.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۲</span>\n    <span class=\"mrd-services__name\">توسعه‌ی فناوری</span>\n    <span class=\"mrd-services__tag\">Technology</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — معماری نرم‌افزار، پلتفرم‌های ابری و محصولات دیجیتال مقیاس‌پذیر.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۳</span>\n    <span class=\"mrd-services__name\">مهندسی و اجرا</span>\n    <span class=\"mrd-services__tag\">Engineering</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — مدیریت پروژه‌های پیچیده‌ی مهندسی از طراحی تا تحویل.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۴</span>\n    <span class=\"mrd-services__name\">تحول دیجیتال</span>\n    <span class=\"mrd-services__tag\">Transformation</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — بازطراحی فرآیندها و سیستم‌ها برای سازمان‌های داده‌محور.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li>\n<li class=\"mrd-services__item\" data-service-item>\n  <button class=\"mrd-services__trigger\" type=\"button\" aria-expanded=\"false\">\n    <span class=\"mrd-services__num\">۰۵</span>\n    <span class=\"mrd-services__name\">سرمایه‌گذاری و رشد</span>\n    <span class=\"mrd-services__tag\">Investment</span>\n    <span class=\"mrd-services__plus\"></span>\n  </button>\n  <div class=\"mrd-services__body\">\n    <p class=\"mrd-services__desc\">[توضیح خدمت] — ساختاردهی مالی، جذب سرمایه و توسعه‌ی بازارهای جدید.</p>\n    <a class=\"mrd-btn mrd-btn--text\" href=\"#contact\"><span class=\"mrd-btn__label\">دریافت مشاوره</span><span class=\"mrd-btn__circle\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span></a>\n  </div>\n</li></ul>",
+          "_css_classes": "mrd-services__list-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "f5fedba",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-projects mrd-section--pad",
+    "_element_id": "projects"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "5f67948",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "6a02f62",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "8d172b5",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> پروژه‌های شاخص</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "7a4111c",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "کارهایی که به آن‌ها افتخار می‌کنیم.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "bb58a35",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "button",
+         "settings": {
+          "text": "مشاهده‌ی همه‌ی پروژه‌ها",
+          "link": {
+           "url": "#case-studies",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "selected_icon": {
+           "value": ""
+          },
+          "_css_classes": "mrd-el-btn mrd-btn--text mrd-section-head__cta"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "aed75b8",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-projects__grid\">\n<article class=\"mrd-project\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] پلتفرم یکپارچه‌ی بانکی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-1.jpg\" alt=\"[نام پروژه] پلتفرم یکپارچه‌ی بانکی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۳</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">فناوری مالی</span>\n      <span class=\"mrd-project__index\">۰1</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] پلتفرم یکپارچه‌ی بانکی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project mrd-project--offset\" data-mrd=\"fade-up\" data-mrd-delay=\"0.12\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-2.jpg\" alt=\"[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۲</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">انرژی</span>\n      <span class=\"mrd-project__index\">۰2</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] برج اداری مرکزی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-3.jpg\" alt=\"[نام پروژه] برج اداری مرکزی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۲</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">ساختمان</span>\n      <span class=\"mrd-project__index\">۰3</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] برج اداری مرکزی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project mrd-project--offset\" data-mrd=\"fade-up\" data-mrd-delay=\"0.12\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] شبکه‌ی لجستیک هوشمند\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-4.jpg\" alt=\"[نام پروژه] شبکه‌ی لجستیک هوشمند\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۱</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">لجستیک</span>\n      <span class=\"mrd-project__index\">۰4</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] شبکه‌ی لجستیک هوشمند</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article></div>",
+        "_css_classes": "mrd-projects__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "910ee9f",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-industries mrd-section--pad",
+    "_element_id": "industries"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "ae96563",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "8dc7476",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "3570f90",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> صنایع و توانمندی‌ها</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "ba8ba82",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "تجربه در هشت صنعت کلیدی.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "d33bf61",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<ul class=\"mrd-industries__grid\" data-mrd-group>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰1</span>\n    <h3 class=\"mrd-industry__title\">فناوری</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.08\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰2</span>\n    <h3 class=\"mrd-industry__title\">ساختمان و عمران</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.16\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰3</span>\n    <h3 class=\"mrd-industry__title\">مالی و بانکی</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.24\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰4</span>\n    <h3 class=\"mrd-industry__title\">تولید و صنعت</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰5</span>\n    <h3 class=\"mrd-industry__title\">انرژی</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.08\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰6</span>\n    <h3 class=\"mrd-industry__title\">املاک و مستغلات</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.16\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰7</span>\n    <h3 class=\"mrd-industry__title\">سلامت</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li>\n<li class=\"mrd-industry\" data-mrd=\"fade-up\" data-mrd-delay=\"0.24\">\n  <a href=\"#\" class=\"mrd-industry__link\">\n    <span class=\"mrd-industry__num\">۰8</span>\n    <h3 class=\"mrd-industry__title\">لجستیک و حمل‌ونقل</h3>\n    <p class=\"mrd-industry__desc\">[توضیح کوتاه صنعت]</p>\n    <span class=\"mrd-industry__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</li></ul>",
+        "_css_classes": "mrd-industries__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "5a7bf88",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-process mrd-section--pad",
+    "attributes": "data-process|",
+    "_element_id": "process"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "8487382",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "1db6b7f",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head mrd-section-head--center",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "15917d6",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow mrd-eyebrow--accent\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> فرآیند ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "8401be8",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "پنج مرحله تا نتیجه.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "22561c6",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<svg class=\"mrd-process__path\" data-process-svg aria-hidden=\"true\">\n  <path data-process-line fill=\"none\"></path>\n  <path data-process-progress fill=\"none\"></path>\n  <g data-process-dot>\n    <circle class=\"mrd-process__dot-halo\" r=\"14\"></circle>\n    <circle class=\"mrd-process__dot-core\" r=\"6\"></circle>\n  </g>\n</svg>\n<ol class=\"mrd-process__steps\">\n<li class=\"mrd-process__step is-active\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰1</span>\n  <h3 class=\"mrd-process__step-title\">کشف</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — شناخت عمیق چالش، ذی‌نفعان و داده‌ها.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰2</span>\n  <h3 class=\"mrd-process__step-title\">استراتژی</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — تعریف مسیر، شاخص‌های موفقیت و نقشه‌ی راه.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰3</span>\n  <h3 class=\"mrd-process__step-title\">طراحی</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — طراحی راه‌حل با تمرکز بر دقت و تجربه.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰4</span>\n  <h3 class=\"mrd-process__step-title\">اجرا</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — توسعه و پیاده‌سازی با کنترل کیفیت مداوم.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰5</span>\n  <h3 class=\"mrd-process__step-title\">رشد</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — اندازه‌گیری، بهینه‌سازی و مقیاس.</p>\n</li></ol>",
+        "_css_classes": "mrd-process__stage"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "46c00bb",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-testimonials mrd-section--pad",
+    "_element_id": "testimonials"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "3e633aa",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "6df62f3",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "c2e5b56",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> نظرات مشتریان</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "9d8cc7a",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "اعتماد، مهم‌ترین خروجی ماست.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "baf29fb",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-testimonials__slider\" data-slider>\n  <div class=\"mrd-testimonials__track\" data-slider-track>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — دقت، شفافیت و کیفیت اجرای این تیم، استاندارد جدیدی برای ما تعریف کرد.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیرعامل، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — همکاری با مِریدین، پروژه‌ی ما را شش ماه جلو انداخت.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیر فناوری، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — تیمی که هم استراتژی می‌فهمد، هم اجرا.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیر محصول، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure></div>\n</div>\n<div class=\"mrd-testimonials__controls\">\n  <button class=\"mrd-ctrl\" type=\"button\" data-slider-prev aria-label=\"قبلی\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>\n  <span class=\"mrd-testimonials__count\" data-slider-count>۰۱ / ۰۳</span>\n  <button class=\"mrd-ctrl mrd-ctrl--flip\" type=\"button\" data-slider-next aria-label=\"بعدی\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>\n</div>",
+        "_css_classes": "mrd-testimonials__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "e09fd90",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-team mrd-section--pad",
+    "_element_id": "team"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "62bd4d0",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "d1603b2",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "528c4ff",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> تیم ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "ba57ee7",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "افرادی که تفاوت را می‌سازند.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "f07be3f",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<ul class=\"mrd-team__grid\" data-mrd-group>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-1.jpg\" alt=\"[نام عضو تیم] — مدیرعامل\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیرعامل</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.1\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-2.jpg\" alt=\"[نام عضو تیم] — مدیر استراتژی\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر استراتژی</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.2\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-3.jpg\" alt=\"[نام عضو تیم] — مدیر فناوری\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر فناوری</span>\n  </div>\n</li>\n<li class=\"mrd-member\" data-mrd=\"fade-up\" data-mrd-delay=\"0.30000000000000004\">\n  <figure class=\"mrd-member__media u-hover-zoom\">\n    <img src=\"/wp-content/uploads/team-4.jpg\" alt=\"[نام عضو تیم] — مدیر طراحی\" width=\"600\" height=\"750\" loading=\"lazy\" decoding=\"async\">\n  </figure>\n  <div class=\"mrd-member__meta\">\n    <h3 class=\"mrd-member__name\">[نام عضو تیم]</h3>\n    <span class=\"mrd-member__role\">مدیر طراحی</span>\n  </div>\n</li></ul>",
+        "_css_classes": "mrd-team__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "27d8462",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-cta mrd-section--pad",
+    "_element_id": "cta"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "3d20d13",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "ac667b0",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<span class=\"mrd-eyebrow mrd-eyebrow--light\" data-mrd=\"fade-up\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> شروع همکاری</span>\n<h2 class=\"mrd-cta__title\" data-split=\"lines\">بیایید چیزی ماندگار بسازیم.</h2>\n<p class=\"mrd-cta__desc\" data-mrd=\"fade-up\" data-mrd-delay=\"0.15\">[توضیح کوتاه CTA] — پاسخ‌گویی در کمتر از ۲۴ ساعت کاری.</p>\n<div data-mrd=\"fade-up\" data-mrd-delay=\"0.25\">\n  <a href=\"#contact\" class=\"mrd-btn mrd-btn--light\" data-magnetic=\"0.4\">\n    <span class=\"mrd-btn__label\">شروع پروژه</span>\n    <span class=\"mrd-btn__arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M17 7 7 17M7 9v8h8\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span>\n  </a>\n</div>\n<p class=\"mrd-cta__contact\" data-mrd=\"fade-up\" data-mrd-delay=\"0.35\">\n  <a href=\"mailto:info@example.com\" class=\"mrd-link-line mrd-link-line--light\">[ایمیل] info@example.com</a>\n  <a href=\"tel:+982100000000\" class=\"mrd-link-line mrd-link-line--light\">[تلفن] ۰۲۱-۰۰۰۰۰۰۰۰</a>\n</p>",
+        "_css_classes": "mrd-cta__inner"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  },
+  {
+   "id": "81af7a7",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-contact mrd-section--pad",
+    "_element_id": "contact"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "29c1be8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "f61af96",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "83ddf21",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> تماس با ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "339b0bb",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "گفت‌وگو را آغاز کنیم.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "26d7a81",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-contact__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "4a37fd6",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<form class=\"mrd-form\" action=\"#\" method=\"post\" novalidate>\n  <div class=\"mrd-form__row\">\n    <label class=\"mrd-field\">\n      <input class=\"mrd-field__input\" type=\"text\" name=\"name\" required placeholder=\" \">\n      <span class=\"mrd-field__label\">نام و نام خانوادگی</span>\n    </label>\n    <label class=\"mrd-field\">\n      <input class=\"mrd-field__input\" type=\"email\" name=\"email\" required placeholder=\" \">\n      <span class=\"mrd-field__label\">ایمیل</span>\n    </label>\n  </div>\n  <label class=\"mrd-field\">\n    <input class=\"mrd-field__input\" type=\"text\" name=\"subject\" placeholder=\" \">\n    <span class=\"mrd-field__label\">موضوع</span>\n  </label>\n  <label class=\"mrd-field\">\n    <textarea class=\"mrd-field__input mrd-field__input--area\" name=\"message\" rows=\"5\" required placeholder=\" \"></textarea>\n    <span class=\"mrd-field__label\">پیام شما</span>\n  </label>\n  <button class=\"mrd-btn mrd-btn--solid\" type=\"submit\" data-magnetic=\"0.35\">\n    <span class=\"mrd-btn__label\">ارسال پیام</span>\n  </button>\n</form>",
+          "_css_classes": "mrd-contact__form-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "2143388",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<div class=\"mrd-contact__info\">\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\">\n    <span class=\"mrd-contact__label\">تلفن</span>\n    <a class=\"mrd-contact__value mrd-link-line\" href=\"tel:+982100000000\">[تلفن] ۰۲۱-۰۰۰۰۰۰۰۰</a>\n  </div>\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\" data-mrd-delay=\"0.1\">\n    <span class=\"mrd-contact__label\">ایمیل</span>\n    <a class=\"mrd-contact__value mrd-link-line\" href=\"mailto:info@example.com\">[ایمیل] info@example.com</a>\n  </div>\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\" data-mrd-delay=\"0.2\">\n    <span class=\"mrd-contact__label\">نشانی</span>\n    <span class=\"mrd-contact__value\">[آدرس] — تهران، خیابان نمونه، پلاک ۱۲، واحد ۴</span>\n  </div>\n  <div class=\"mrd-contact__map\" data-mrd=\"fade-up\" data-mrd-delay=\"0.3\">\n    <span class=\"mrd-contact__map-note\">[نقشه — امبد Google Maps / نشان این‌جا قرار می‌گیرد]</span>\n  </div>\n</div>",
+          "_css_classes": "mrd-contact__info-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": {
+  "hide_title": "yes"
+ }
+}

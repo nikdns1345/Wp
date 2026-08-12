@@ -1,0 +1,124 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Process (فرآیند + Motion Path)",
+ "type": "section",
+ "content": [
+  {
+   "id": "5a7bf88",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-process mrd-section--pad",
+    "attributes": "data-process|",
+    "_element_id": "process"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "8487382",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "1db6b7f",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head mrd-section-head--center",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "15917d6",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow mrd-eyebrow--accent\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> فرآیند ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "8401be8",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "پنج مرحله تا نتیجه.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "22561c6",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<svg class=\"mrd-process__path\" data-process-svg aria-hidden=\"true\">\n  <path data-process-line fill=\"none\"></path>\n  <path data-process-progress fill=\"none\"></path>\n  <g data-process-dot>\n    <circle class=\"mrd-process__dot-halo\" r=\"14\"></circle>\n    <circle class=\"mrd-process__dot-core\" r=\"6\"></circle>\n  </g>\n</svg>\n<ol class=\"mrd-process__steps\">\n<li class=\"mrd-process__step is-active\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰1</span>\n  <h3 class=\"mrd-process__step-title\">کشف</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — شناخت عمیق چالش، ذی‌نفعان و داده‌ها.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰2</span>\n  <h3 class=\"mrd-process__step-title\">استراتژی</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — تعریف مسیر، شاخص‌های موفقیت و نقشه‌ی راه.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰3</span>\n  <h3 class=\"mrd-process__step-title\">طراحی</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — طراحی راه‌حل با تمرکز بر دقت و تجربه.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰4</span>\n  <h3 class=\"mrd-process__step-title\">اجرا</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — توسعه و پیاده‌سازی با کنترل کیفیت مداوم.</p>\n</li>\n<li class=\"mrd-process__step\" data-process-step>\n  <span class=\"mrd-process__step-num\">۰5</span>\n  <h3 class=\"mrd-process__step-title\">رشد</h3>\n  <p class=\"mrd-process__step-desc\">[توضیح مرحله] — اندازه‌گیری، بهینه‌سازی و مقیاس.</p>\n</li></ol>",
+        "_css_classes": "mrd-process__stage"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

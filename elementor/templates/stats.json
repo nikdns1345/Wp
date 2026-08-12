@@ -1,0 +1,62 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Stats (شمارنده‌ها)",
+ "type": "section",
+ "content": [
+  {
+   "id": "b35b73c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-stats",
+    "_element_id": "stats"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "01eebeb",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "4ee2752",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-stats__grid\" data-mrd-group>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"15\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">+</em>\n  </span>\n  <span class=\"mrd-stat__label\">سال تجربه</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"120\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">+</em>\n  </span>\n  <span class=\"mrd-stat__label\">پروژه‌ی موفق</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"35\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\"></em>\n  </span>\n  <span class=\"mrd-stat__label\">صنعت</span>\n</div>\n<div class=\"mrd-stat\">\n  <span class=\"mrd-stat__number\">\n    <span data-counter data-counter-target=\"98\" data-counter-duration=\"2\">۰</span><em class=\"mrd-stat__suffix\">٪</em>\n  </span>\n  <span class=\"mrd-stat__label\">رضایت مشتری</span>\n</div></div>",
+        "_css_classes": "mrd-stats__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

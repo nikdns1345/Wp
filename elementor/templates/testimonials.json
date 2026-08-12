@@ -1,0 +1,123 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Testimonials (نظرات)",
+ "type": "section",
+ "content": [
+  {
+   "id": "46c00bb",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-testimonials mrd-section--pad",
+    "_element_id": "testimonials"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "3e633aa",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "6df62f3",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "c2e5b56",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> نظرات مشتریان</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "9d8cc7a",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "اعتماد، مهم‌ترین خروجی ماست.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "baf29fb",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-testimonials__slider\" data-slider>\n  <div class=\"mrd-testimonials__track\" data-slider-track>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — دقت، شفافیت و کیفیت اجرای این تیم، استاندارد جدیدی برای ما تعریف کرد.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیرعامل، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — همکاری با مِریدین، پروژه‌ی ما را شش ماه جلو انداخت.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیر فناوری، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure>\n<figure class=\"mrd-quote\">\n  <blockquote class=\"mrd-quote__text\">[نقل‌قول مشتری] — تیمی که هم استراتژی می‌فهمد، هم اجرا.</blockquote>\n  <figcaption class=\"mrd-quote__meta\">\n    <span class=\"mrd-quote__avatar\" aria-hidden=\"true\">ن</span>\n    <span class=\"mrd-quote__who\"><strong>[نام مشتری]</strong><small>مدیر محصول، [نام شرکت مشتری]</small></span>\n  </figcaption>\n</figure></div>\n</div>\n<div class=\"mrd-testimonials__controls\">\n  <button class=\"mrd-ctrl\" type=\"button\" data-slider-prev aria-label=\"قبلی\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>\n  <span class=\"mrd-testimonials__count\" data-slider-count>۰۱ / ۰۳</span>\n  <button class=\"mrd-ctrl mrd-ctrl--flip\" type=\"button\" data-slider-next aria-label=\"بعدی\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" width=\"1em\" height=\"1em\"><path d=\"M19 12H5m0 0 6 6m-6-6 6-6\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>\n</div>",
+        "_css_classes": "mrd-testimonials__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

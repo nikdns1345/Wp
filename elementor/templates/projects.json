@@ -1,0 +1,150 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Projects (پروژه‌های شاخص)",
+ "type": "section",
+ "content": [
+  {
+   "id": "f5fedba",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-projects mrd-section--pad",
+    "_element_id": "projects"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "5f67948",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "6a02f62",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "8d172b5",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> پروژه‌های شاخص</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "7a4111c",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "کارهایی که به آن‌ها افتخار می‌کنیم.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "bb58a35",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "button",
+         "settings": {
+          "text": "مشاهده‌ی همه‌ی پروژه‌ها",
+          "link": {
+           "url": "#case-studies",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "selected_icon": {
+           "value": ""
+          },
+          "_css_classes": "mrd-el-btn mrd-btn--text mrd-section-head__cta"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "aed75b8",
+       "elType": "widget",
+       "isInner": false,
+       "widgetType": "html",
+       "settings": {
+        "html_code": "<div class=\"mrd-projects__grid\">\n<article class=\"mrd-project\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] پلتفرم یکپارچه‌ی بانکی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-1.jpg\" alt=\"[نام پروژه] پلتفرم یکپارچه‌ی بانکی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۳</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">فناوری مالی</span>\n      <span class=\"mrd-project__index\">۰1</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] پلتفرم یکپارچه‌ی بانکی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project mrd-project--offset\" data-mrd=\"fade-up\" data-mrd-delay=\"0.12\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-2.jpg\" alt=\"[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۲</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">انرژی</span>\n      <span class=\"mrd-project__index\">۰2</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] نیروگاه خورشیدی ۴۰ مگاواتی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project\" data-mrd=\"fade-up\" data-mrd-delay=\"0.0\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] برج اداری مرکزی\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-3.jpg\" alt=\"[نام پروژه] برج اداری مرکزی\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۲</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">ساختمان</span>\n      <span class=\"mrd-project__index\">۰3</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] برج اداری مرکزی</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article>\n<article class=\"mrd-project mrd-project--offset\" data-mrd=\"fade-up\" data-mrd-delay=\"0.12\">\n  <a href=\"#\" class=\"mrd-project__link\" data-cursor=\"مشاهده\" aria-label=\"[نام پروژه] شبکه‌ی لجستیک هوشمند\">\n    <figure class=\"mrd-project__media u-hover-zoom\">\n      <img src=\"/wp-content/uploads/project-4.jpg\" alt=\"[نام پروژه] شبکه‌ی لجستیک هوشمند\" width=\"1100\" height=\"800\" loading=\"lazy\" decoding=\"async\">\n      <span class=\"mrd-project__year\">۱۴۰۱</span>\n    </figure>\n    <div class=\"mrd-project__meta\">\n      <span class=\"mrd-project__cat\">لجستیک</span>\n      <span class=\"mrd-project__index\">۰4</span>\n    </div>\n    <h3 class=\"mrd-project__title\">[نام پروژه] شبکه‌ی لجستیک هوشمند</h3>\n    <p class=\"mrd-project__desc mrd-text-muted\">[توضیح کوتاه پروژه]</p>\n  </a>\n</article></div>",
+        "_css_classes": "mrd-projects__wrap"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [],
+       "title": "",
+       "categories": [
+        "basic"
+       ],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}

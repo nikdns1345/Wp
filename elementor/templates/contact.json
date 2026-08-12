@@ -1,0 +1,158 @@
+{
+ "version": "0.4",
+ "title": "Meridian — Contact (تماس)",
+ "type": "section",
+ "content": [
+  {
+   "id": "81af7a7",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "html_tag": "section",
+    "content_width": "full",
+    "_css_classes": "mrd-contact mrd-section--pad",
+    "_element_id": "contact"
+   },
+   "defaultEditSettings": {
+    "defaultEditRoute": "content"
+   },
+   "elements": [
+    {
+     "id": "29c1be8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "_css_classes": "mrd-container"
+     },
+     "defaultEditSettings": {
+      "defaultEditRoute": "content"
+     },
+     "elements": [
+      {
+       "id": "f61af96",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-section-head",
+        "attributes": "data-mrd|fade-up"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "83ddf21",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<span class=\"mrd-eyebrow\"><svg viewBox=\"0 0 32 2\" fill=\"none\" aria-hidden=\"true\"><rect width=\"32\" height=\"1.5\" fill=\"currentColor\"/></svg> تماس با ما</span>",
+          "_css_classes": "mrd-section-head__eyebrow"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "339b0bb",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "heading",
+         "settings": {
+          "title": "گفت‌وگو را آغاز کنیم.",
+          "header_size": "h2",
+          "_css_classes": "mrd-h2",
+          "__globals__": {
+           "title_color": "globals/colors?id=primary",
+           "typography_typography": "globals/typography?id=secondary"
+          },
+          "attributes": "data-split|lines"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      },
+      {
+       "id": "26d7a81",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "_css_classes": "mrd-contact__grid"
+       },
+       "defaultEditSettings": {
+        "defaultEditRoute": "content"
+       },
+       "elements": [
+        {
+         "id": "4a37fd6",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<form class=\"mrd-form\" action=\"#\" method=\"post\" novalidate>\n  <div class=\"mrd-form__row\">\n    <label class=\"mrd-field\">\n      <input class=\"mrd-field__input\" type=\"text\" name=\"name\" required placeholder=\" \">\n      <span class=\"mrd-field__label\">نام و نام خانوادگی</span>\n    </label>\n    <label class=\"mrd-field\">\n      <input class=\"mrd-field__input\" type=\"email\" name=\"email\" required placeholder=\" \">\n      <span class=\"mrd-field__label\">ایمیل</span>\n    </label>\n  </div>\n  <label class=\"mrd-field\">\n    <input class=\"mrd-field__input\" type=\"text\" name=\"subject\" placeholder=\" \">\n    <span class=\"mrd-field__label\">موضوع</span>\n  </label>\n  <label class=\"mrd-field\">\n    <textarea class=\"mrd-field__input mrd-field__input--area\" name=\"message\" rows=\"5\" required placeholder=\" \"></textarea>\n    <span class=\"mrd-field__label\">پیام شما</span>\n  </label>\n  <button class=\"mrd-btn mrd-btn--solid\" type=\"submit\" data-magnetic=\"0.35\">\n    <span class=\"mrd-btn__label\">ارسال پیام</span>\n  </button>\n</form>",
+          "_css_classes": "mrd-contact__form-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        },
+        {
+         "id": "2143388",
+         "elType": "widget",
+         "isInner": false,
+         "widgetType": "html",
+         "settings": {
+          "html_code": "<div class=\"mrd-contact__info\">\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\">\n    <span class=\"mrd-contact__label\">تلفن</span>\n    <a class=\"mrd-contact__value mrd-link-line\" href=\"tel:+982100000000\">[تلفن] ۰۲۱-۰۰۰۰۰۰۰۰</a>\n  </div>\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\" data-mrd-delay=\"0.1\">\n    <span class=\"mrd-contact__label\">ایمیل</span>\n    <a class=\"mrd-contact__value mrd-link-line\" href=\"mailto:info@example.com\">[ایمیل] info@example.com</a>\n  </div>\n  <div class=\"mrd-contact__item\" data-mrd=\"fade-up\" data-mrd-delay=\"0.2\">\n    <span class=\"mrd-contact__label\">نشانی</span>\n    <span class=\"mrd-contact__value\">[آدرس] — تهران، خیابان نمونه، پلاک ۱۲، واحد ۴</span>\n  </div>\n  <div class=\"mrd-contact__map\" data-mrd=\"fade-up\" data-mrd-delay=\"0.3\">\n    <span class=\"mrd-contact__map-note\">[نقشه — امبد Google Maps / نشان این‌جا قرار می‌گیرد]</span>\n  </div>\n</div>",
+          "_css_classes": "mrd-contact__info-wrap"
+         },
+         "defaultEditSettings": {
+          "defaultEditRoute": "content"
+         },
+         "elements": [],
+         "title": "",
+         "categories": [
+          "basic"
+         ],
+         "keywords": []
+        }
+       ],
+       "title": "Container",
+       "categories": [],
+       "keywords": []
+      }
+     ],
+     "title": "Container",
+     "categories": [],
+     "keywords": []
+    }
+   ],
+   "title": "Container",
+   "categories": [],
+   "keywords": []
+  }
+ ],
+ "page_settings": []
+}
