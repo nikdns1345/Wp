@@ -1,0 +1,23 @@
+/*
+Theme Name: Meridian Corporate — مِریدین
+Theme URI: https://github.com/nikdns1345/Wp
+Author: Meridian Studio
+Author URI: https://github.com/nikdns1345
+Description: قالب ماستر شرکتی فارسی/RTL برای وردپرس + المنتور پرو. سیستم دیزاین توکن‌محور، تایپوگرافی وزیرمتن، انیمیشن‌های ماژولار GSAP، کاملاً قابل‌ویرایش. تمام استایل‌ها در assets/css لود می‌شوند.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meridian
+Tags: corporate, rtl-language-support, custom-colors, elementor, animation, minimal
+*/
+
+/* این فایل فقط هدر قالب را نگه می‌دارد.
+   استایل واقعی قالب به‌ترتیب زیر از inc/enqueue.php لود می‌شود:
+   1) assets/css/tokens.css      → توکن‌های دیزاین‌سیستم (رنگ/تایپوگرافی/فاصله)
+   2) assets/css/base.css        → ریست، تایپوگرافی پایه، گرید
+   3) assets/css/components.css  → دکمه، فرم، کرسر، منو، لودر…
+   4) assets/css/sections.css    → استایل ۱۵ سکشن
+*/

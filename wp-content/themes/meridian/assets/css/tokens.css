@@ -1,0 +1,109 @@
+/* ============================================================
+   MERIDIAN — Design Tokens
+   ------------------------------------------------------------
+   تنها نقطه‌ی تغییر دیزاین‌سیستم. برای تغییر رنگ سازمانی فقط
+   --c-accent را عوض کنید (و همان مقدار را در Site Settings المنتور).
+   ============================================================ */
+
+:root {
+
+	/* ── رنگ‌ها: پایه‌ی خنثی ─────────────────────────────── */
+	--c-bg:            #F7F6F3;   /* سفید گرم (off-white) */
+	--c-surface:       #FFFFFF;
+	--c-ink:           #111114;   /* مشکی نزدیک */
+	--c-ink-soft:      #1B1B20;
+	--c-muted:         #6F6F76;
+	--c-line:          rgba(17, 17, 20, .13);
+	--c-line-strong:   rgba(17, 17, 20, .3);
+
+	/* ── رنگ سازمانی (تنها accent کل سایت) ───────────────── */
+	--c-accent:        #2040FF;
+	--c-accent-hover:  #1A33D6;
+	--c-accent-ink:    #FFFFFF;   /* متن روی accent */
+	--c-accent-soft:   rgba(32, 64, 255, .07);
+
+	/* ── سکشن‌های تیره ───────────────────────────────────── */
+	--c-dark-bg:       #0E0E11;
+	--c-dark-surface:  #17171C;
+	--c-dark-ink:      #F4F3EF;
+	--c-dark-muted:    rgba(244, 243, 239, .58);
+	--c-dark-line:     rgba(244, 243, 239, .14);
+
+	/* ── تایپوگرافی ──────────────────────────────────────── */
+	--font-main: "Vazirmatn", "Segoe UI", Tahoma, system-ui, sans-serif;
+
+	--fs-display:  clamp(2.5rem, 8vw, 7.75rem);
+	--fs-h1:       clamp(2.25rem, 5.6vw, 5.25rem);
+	--fs-h2:       clamp(1.85rem, 3.8vw, 3.4rem);
+	--fs-h3:       clamp(1.25rem, 1.8vw, 1.7rem);
+	--fs-lead:     clamp(1.05rem, 1.3vw, 1.25rem);
+	--fs-body:     1.0625rem;
+	--fs-caption:  .8125rem;
+	--fs-eyebrow:  .8rem;
+
+	--lh-tight: 1.18;
+	--lh-title: 1.4;
+	--lh-body:  2;
+
+	--fw-light:  300;
+	--fw-normal: 400;
+	--fw-med:    500;
+	--fw-bold:   700;
+	--fw-black:  800;
+
+	--ls-eyebrow: .1em;
+
+	/* ── فواصل (اسپیسینگ سیستم ۴پیکسلی) ──────────────────── */
+	--space-1: .5rem;
+	--space-2: 1rem;
+	--space-3: 1.5rem;
+	--space-4: 2rem;
+	--space-5: 3rem;
+	--space-6: 4rem;
+	--space-7: 6rem;
+	--space-8: 8rem;
+	--space-9: 12rem;
+	--section-pad: clamp(5rem, 10vw, 9.5rem);
+
+	/* ── چیدمان ──────────────────────────────────────────── */
+	--container:        88rem;    /* 1408px */
+	--container-narrow: 62rem;
+	--gutter:           clamp(1.25rem, 4vw, 4rem);
+
+	/* ── فرم ─────────────────────────────────────────────── */
+	--radius:    6px;
+	--radius-lg: 12px;
+	--radius-pill: 100vmax;
+
+	/* ── سایه‌ها (بسیار لطیف) ────────────────────────────── */
+	--shadow-sm: 0 1px 2px rgba(17, 17, 20, .05);
+	--shadow-md: 0 12px 40px -12px rgba(17, 17, 20, .14);
+	--shadow-lg: 0 32px 80px -32px rgba(17, 17, 20, .25);
+
+	/* ── موشن ────────────────────────────────────────────── */
+	--ease-out:     cubic-bezier(.22, 1, .36, 1);
+	--ease-in-out:  cubic-bezier(.65, 0, .35, 1);
+	--dur-fast: .25s;
+	--dur-med:  .5s;
+
+	/* ── لایه‌ها ─────────────────────────────────────────── */
+	--z-header:     90;
+	--z-menu:       96;
+	--z-cursor:     1000;
+	--z-transition: 1500;
+	--z-loader:     2000;
+
+	/* ── هدر ─────────────────────────────────────────────── */
+	--header-h: 96px;
+}
+
+@media (max-width: 768px) {
+	:root { --header-h: 72px; }
+}
+
+/* حالت تیره برای سکشن‌ها از طریق کلاس */
+.mrd-dark {
+	--c-fg: var(--c-dark-ink);
+	--c-fg-muted: var(--c-dark-muted);
+	--c-fg-line: var(--c-dark-line);
+}

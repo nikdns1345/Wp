@@ -1,0 +1,25 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Node (در صورت استفاده از ابزارهای بیلد اختیاری)
+node_modules/
+dist/
+build/
+
+# WordPress local
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups*/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
